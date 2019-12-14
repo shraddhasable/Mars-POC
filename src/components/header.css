@@ -1,0 +1,59 @@
+h1 {
+    display: inline-block;
+}
+.header .black-text {
+    color: black;
+}
+.header .black-text:hover {
+    border-bottom: none;
+}
+
+.header {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    float: right;    
+    margin-top: 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+  }
+
+.header a:hover {
+    color: #005E94;
+    border-bottom: 3px solid #fff;
+}
+.header-right {
+    /* float: right; */
+}
+.logo {
+    /* background-image: url(../images/pedigree-logo.png); */
+    /* display: block; */
+    width: 72px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    display: inline-block;
+}
+.header-right .glyphicon {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+

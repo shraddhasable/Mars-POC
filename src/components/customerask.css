@@ -1,0 +1,42 @@
+.ask-cust-wrap {
+    display: inline-block;
+}
+.ask-cust-wrap h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.ask-img:hover {
+    opacity: 0.3;
+}
+
+.ask-text {
+    display: none;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.dummy {
+    width: 50%;
+    display: inline-block;
+}
+.ask-cust-wrap button {
+    font-size: 14px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    width: auto;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'pedigree_ultra_boldregular';
+    font-weight: normal;
+    display: block;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,21 +1,23 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "./header.css"
+import "./footer.css"
 
-const Header = ({ siteTitle }) => (
-  <header
+const Footer = ({ siteTitle }) => (
+  <footer
     style={{
       background: `#FFB10E`,
+      marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
+        padding: `1.45rem 1.0875rem`,
       }}
     >
-      {/* <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -25,8 +27,8 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1> */}
-      <img src={require('../images/pedigree-logo.png')} className="logo" />
+      </h1>
+      {/* <img className="logo" /> */}
       <div className="header">
         <div className="header-right">
           <a className="active" href="#dogfood">DOG FOOD</a>
@@ -36,22 +38,18 @@ const Header = ({ siteTitle }) => (
           <a href="#helpingdogs">Helping Dogs</a>
           <a href="#buynow" className="black-text">Buy Now</a>
           <a href="#newsletter" className="black-text">Newsletter</a>
-          
-          <a href="#" className="">
-            <span class="glyphicon glyphicon-search clickable"></span>
-          </a>
         </div>
       </div>      
     </div>
-  </header>
+  </footer>
 )
 
-Header.propTypes = {
+Footer.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Footer.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Footer

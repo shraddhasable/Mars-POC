@@ -17,22 +17,22 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-          <img src={require('../images/carousel-header_1280x506.jpg')} />
+          <img src={require('../images/carousel-header_1280x506.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/small-dogs-live-large.jpg')} />
+        <img src={require('../images/small-dogs-live-large.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/little-pouch.jpg')} />
+        <img src={require('../images/little-pouch.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/puppy-basketball.jpg')} />
+        <img src={require('../images/puppy-basketball.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/feed-the-good-tug-of-war.jpg')} />
+        <img src={require('../images/feed-the-good-tug-of-war.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/puppy-bowl-carousel-image_1280x506.jpg')} />
+        <img src={require('../images/puppy-bowl-carousel-image_1280x506.jpg')} alt="banner image" />
         </div>
       </Slider>
     );

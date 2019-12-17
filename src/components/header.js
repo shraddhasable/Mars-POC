@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         <div className="header-right">
           <a className="active" href="#dogfood">DOG FOOD</a>
           <a href="https://www.google.co.in">Why Pedigree</a>
-          <a href="https://www.google.co.in">Dog Care</a>
+          <a href="page-2">Dog Care</a>
           <a href="https://www.google.co.in">Getting A New Dog</a>
           <a href="https://www.google.co.in">Helping Dogs</a>
           <a href="https://www.google.co.in" className="black-text">Buy Now</a>

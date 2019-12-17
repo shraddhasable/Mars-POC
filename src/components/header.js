@@ -30,14 +30,14 @@ const Header = ({ siteTitle }) => (
       <div className="header">
         <div className="header-right">
           <a className="active" href="#dogfood">DOG FOOD</a>
-          <a href="/#whypedigree">Why Pedigree</a>
-          <a href="/#dogcare">Dog Care</a>
-          <a href="/#gettinganewdog">Getting A New Dog</a>
-          <a href="/#helpingdogs">Helping Dogs</a>
-          <a href="/#buynow" className="black-text">Buy Now</a>
-          <a href="/#newsletter" className="black-text">Newsletter</a>
+          <a href="https://www.google.co.in">Why Pedigree</a>
+          <a href="https://www.google.co.in">Dog Care</a>
+          <a href="https://www.google.co.in">Getting A New Dog</a>
+          <a href="https://www.google.co.in">Helping Dogs</a>
+          <a href="https://www.google.co.in" className="black-text">Buy Now</a>
+          <a href="https://www.google.co.in" className="black-text">Newsletter</a>
           
-          <a href="/#" className="">
+          <a href="https://www.google.co.in" className="">
             <span class="glyphicon glyphicon-search clickable"></span>
           </a>
         </div>

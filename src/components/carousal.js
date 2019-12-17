@@ -1,7 +1,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+//import { Link } from "gatsby"
+//import PropTypes from "prop-types"
 import React from "react"
 import Slider from "react-slick";
 
@@ -17,22 +17,22 @@ class SimpleSlider extends React.Component {
     return (
       <Slider {...settings}>
         <div>
-          <img src={require('../images/carousel-header_1280x506.jpg')} alt="banner image" />
+          <Img src={require('../images/carousel-header_1280x506.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/small-dogs-live-large.jpg')} alt="banner image" />
+        <Img src={require('../images/small-dogs-live-large.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/little-pouch.jpg')} alt="banner image" />
+        <Img src={require('../images/little-pouch.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/puppy-basketball.jpg')} alt="banner image" />
+        <Img src={require('../images/puppy-basketball.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/feed-the-good-tug-of-war.jpg')} alt="banner image" />
+        <Img src={require('../images/feed-the-good-tug-of-war.jpg')} alt="banner image" />
         </div>
         <div>
-        <img src={require('../images/puppy-bowl-carousel-image_1280x506.jpg')} alt="banner image" />
+        <Img src={require('../images/puppy-bowl-carousel-image_1280x506.jpg')} alt="banner image" />
         </div>
       </Slider>
     );

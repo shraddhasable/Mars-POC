@@ -1,0 +1,81 @@
+
+.footer-nav.primary, .footer-nav.secondary {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-nav.primary ul:before, .footer-nav.primary ul:after {
+    content: " ";
+    display: table;
+}
+
+.footer-nav.primary li, .footer-nav.secondary li, .footer-nav.social li {
+    display: inline-block;
+    float: none;
+    margin-right: 25px;
+    width: auto !important;
+}
+.footer-nav.primary a {
+    color: #000;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#Footer .copyright p {
+    margin-top: 15px;
+    margin-left: 1.45rem;
+}
+.copyright p {
+    margin-left: 25px;
+}
+
+#Footer p {
+    text-align: left;
+}
+
+img.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+#navlist { 
+    position: relative; 
+}             
+#navlist li { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    position: absolute; 
+    top: 0; 
+    width: 40px;
+    height: 40px;
+}             
+#navlist li, #navlist a { 
+    display: block; 
+    cursor: pointer;
+} 
+
+.fb-icon { 
+    left:0px; 
+    background: url(../images/social.jpg) 498px 470px; 
+} 
+.insta-icon {
+    left:45px; 
+    background: url(../images/social.jpg) 333px 302px;
+}
+.twitter-icon {
+    left:90px; 
+    background: url(../images/social.jpg) 414px 469px;
+}
+.youtube-icon {
+    left:135px; 
+    background: url(../images/social.jpg) 497px 385px;
+}

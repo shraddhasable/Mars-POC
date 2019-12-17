@@ -9,7 +9,7 @@ class Customerask extends React.Component {
                 <div className="col-4 dummy">
                     <div className="ask-cust-wrap">
                         <h2>Getting a Puppy?</h2>
-                        <img src={require('../images/dog2.jpg')} className="ask-img" />
+                        <img src={require('../images/dog2.jpg')} className="ask-img" alt="" />
                         <div className="ask-text">SOME TEXT</div>
                         <button>Learn More</button>
                     </div>
@@ -17,7 +17,7 @@ class Customerask extends React.Component {
                 <div className="col-4 dummy">
                     <div className="ask-cust-wrap">
                         <h2>Getting a Puppy?</h2>
-                        <img src={require('../images/dog2.jpg')} className="ask-img" />
+                        <img src={require('../images/dog2.jpg')} className="ask-img" alt=""/>
                         <div className="ask-text">SOME TEXT</div>
                         <button>Learn More</button>
                     </div>

@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1> */}
-      <img src={require('../images/pedigree-logo.png')} className="logo" />
+      <img src={require('../images/pedigree-logo.png')} className="logo" alt=""/>
       <div className="header">
         <div className="header-right">
           <a className="active" href="#dogfood">DOG FOOD</a>
